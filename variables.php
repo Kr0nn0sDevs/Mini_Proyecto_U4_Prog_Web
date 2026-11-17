@@ -93,4 +93,8 @@ $fechaHoy      = date('d/m/Y H:i:s');       // fecha/hora actual
   </table>
 </section>
 
+<p>
+Las variables permiten almacenar información temporal en memoria para ser utilizada durante la ejecución del programa.
+</p>
+
 <?php require 'includes/footer.php'; ?>
