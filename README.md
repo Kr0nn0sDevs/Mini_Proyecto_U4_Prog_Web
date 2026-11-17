@@ -1,8 +1,11 @@
 # Proyecto PHP: Fundamentos
 
-- **Materia:** Programacion Web
-- **Equipo:**
-- Paola Kasumy Gomez Sánchez
+## Materia
+Programación Web
+
+## Integrantes del equipo
+
+- Paola Kasumy Gómez Sánchez
 - Christian Eduardo Rosales González
 - Brandon Eilio Hernández Aguilar
 
