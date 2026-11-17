@@ -1,7 +1,9 @@
 # Proyecto PHP: Fundamentos
 
-- **Materia:** [Nombre de la materia]
-- **Equipo:** [Nombres de los estudiantes]
+- **Materia:** Programacion Web
+- **Equipo:** Paola Kasumy Gomez Sánchez
+              Christian Eduardo Rosales González
+              Brandon Eilio Hernández Aguilar
 
 ## Descripción
 Sitio web dinámico desarrollado en PHP puro que demuestra los fundamentos del lenguaje:
