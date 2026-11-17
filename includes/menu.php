@@ -5,6 +5,8 @@
   <a href="bucles.php">Bucles</a>
   <a href="arreglos.php">Arreglos</a>
   <a href="sesiones.php">Sesiones</a>
-  <a href="index.php" class="salir">↩ Reiniciar sesión</a>
+  <a href="index.php?accion=reiniciar" class="salir">
+    Reiniciar sesión
+</a>
 </nav>
 <main class="contenido">
