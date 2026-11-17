@@ -1,19 +1,48 @@
-*{box-sizing:border-box}
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f2f4f8;color:#222}
-.encabezado{background:#4f46e5;color:#fff;padding:16px 24px}
-.encabezado h1{margin:0 0 8px}
-.sesion{background:rgba(255,255,255,.15);border-radius:8px;padding:8px 14px;display:inline-block}
-.sesion p{margin:3px 0}
-.menu{background:#312e81;display:flex;flex-wrap:wrap}
-.menu a{color:#fff;text-decoration:none;padding:12px 18px}
-.menu a:hover{background:#4338ca}
-.menu a.salir{margin-left:auto;background:#b91c1c}
-.contenido{max-width:900px;margin:24px auto;padding:0 16px}
-.tarjeta{background:#fff;border-radius:10px;padding:18px 22px;margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
-h2{color:#312e81;margin-top:0}
-table{border-collapse:collapse;width:100%}
-th,td{border:1px solid #ccc;padding:6px 10px;text-align:left}
-th{background:#e0e7ff}
-code{background:#eef;padding:2px 5px;border-radius:4px}
-.boton{display:inline-block;background:#4f46e5;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none}
-.pie{text-align:center;padding:16px;color:#555}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f2f4f8; color: #222; }
+
+/* Encabezado */
+.encabezado { background: #4f46e5; color: #fff; padding: 16px 24px; }
+.encabezado h1 { margin: 0 0 10px; font-size: 1.4rem; }
+.sesion { background: rgba(255,255,255,.18); border-radius: 8px; padding: 8px 14px; display: inline-block; }
+.sesion p { margin: 3px 0; font-size: .92rem; }
+.sesion a { color: #fde68a; }
+
+/* Menú */
+.menu { background: #312e81; display: flex; flex-wrap: wrap; }
+.menu a { color: #fff; text-decoration: none; padding: 12px 16px; font-size: .95rem; }
+.menu a:hover { background: #4338ca; }
+.menu a.salir { margin-left: auto; background: #b91c1c; }
+.menu a.salir:hover { background: #991b1b; }
+
+/* Contenido */
+.contenido { max-width: 920px; margin: 24px auto; padding: 0 16px; }
+
+/* Tarjeta */
+.tarjeta { background: #fff; border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 1px 5px rgba(0,0,0,.1); }
+h2 { color: #312e81; margin-top: 0; border-bottom: 2px solid #e0e7ff; padding-bottom: 6px; }
+h3 { color: #4f46e5; margin-top: 18px; }
+
+/* Tablas */
+table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+th, td { border: 1px solid #c7d2fe; padding: 7px 11px; text-align: left; vertical-align: top; }
+th { background: #e0e7ff; color: #312e81; }
+tr:nth-child(even) { background: #f5f3ff; }
+
+/* Código */
+code { background: #eef2ff; color: #3730a3; padding: 2px 6px; border-radius: 4px; font-size: .9rem; }
+pre { background: #1e1b4b; color: #c7d2fe; padding: 14px 18px; border-radius: 8px; overflow-x: auto; font-size: .9rem; line-height: 1.6; }
+pre code { background: transparent; color: inherit; padding: 0; }
+
+/* Botón */
+.boton { display: inline-block; background: #4f46e5; color: #fff; padding: 10px 22px;
+         border-radius: 6px; text-decoration: none; margin: 4px 4px 4px 0; }
+.boton:hover { background: #4338ca; }
+
+/* Número de cuenta regresiva */
+.num-cuenta { display: inline-block; background: #e0e7ff; color: #312e81;
+              padding: 2px 8px; border-radius: 4px; margin: 2px; font-weight: bold; }
+
+/* Footer */
+.pie { text-align: center; padding: 16px; color: #666; font-size: .9rem;
+       border-top: 1px solid #e0e7ff; margin-top: 10px; }
