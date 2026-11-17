@@ -101,5 +101,7 @@ $alumnos   = [
     <?php endforeach; ?>
   </table>
 </section>
-
+<p>
+Los ciclos permiten automatizar tareas repetitivas y recorrer colecciones de datos de manera eficiente.
+</p>
 <?php require 'includes/footer.php'; ?>
