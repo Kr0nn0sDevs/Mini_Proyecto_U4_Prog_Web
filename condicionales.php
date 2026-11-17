@@ -106,5 +106,7 @@ $dia = (int) date('N');   // 1=lunes … 7=domingo
   ?>
   <p>Calificación <?php echo $calificacion; ?> → <strong><?php echo $etiqueta; ?></strong></p>
 </section>
-
+<p>
+Las estructuras condicionales permiten que PHP tome decisiones dependiendo de los valores almacenados en variables o arreglos.
+</p>
 <?php require 'includes/footer.php'; ?>
