@@ -1,5 +1,5 @@
 <nav class="menu">
-  <a href="index.php">🏠 Inicio</a>
+  <a href="index.php"> Inicio</a>
   <a href="variables.php">Variables</a>
   <a href="condicionales.php">Condicionales</a>
   <a href="bucles.php">Bucles</a>
