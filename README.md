@@ -1,7 +1,7 @@
 # Proyecto PHP: Fundamentos
 
 - **Materia:** [Nombre de la materia]
-- **Equipo:** [Nombres de los estudiantes]
+- **Equipo:** [Gómez Sánchez Paola Kasumy]
 
 ## Descripción
 Sitio web dinámico desarrollado en PHP puro que demuestra los fundamentos del lenguaje:
